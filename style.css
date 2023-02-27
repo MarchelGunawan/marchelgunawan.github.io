@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url(font/SourceCodePro-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Tilt Neon';
+    src: url(font/TiltNeon-Regular-VariableFont_XROT\,YROT.ttf);
+}
+
+body{
+    background: rgb(3,0,28);
+    background: radial-gradient(circle, rgba(3,0,28,0.9051995798319328) 35%, rgba(40,43,70,1) 100%);
+    font-family: 'Source Code Pro', sans-serif;
+    color: #fff;
+}
+
+body span.title{
+    font-family: 'Source Code Pro', sans-serif;
+    font-weight: 700;
+    color: #635985;
+}
+
+.experience-list{
+    font-family: 'Tilt Neon', sans-serif;
+    color: rgb(100, 255, 218);
+    text-decoration: none;
+    transition: 0.3s;   
+}
+
+a.company{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a.company:hover{
+    color: #635985;
+}
+
+a.experience-list:hover{
+    transition: 0.5s;
+    color: #635985 !important;
+}
+
+.detail-exp{
+    display: block;
+    width: 50%;
+}
+
+.detail-exp h4{
+    font-family: 'Tilt Neon', sans-serif;
+    color: rgb(100, 255, 218);
+}
+
+.detail-exp p{
+    color: #fff;
+}
+
+.bg-dark{
+    background-color: #03001C !important;
+}
+
+.bg-dark .navbar-brand{
+    color: #fff !important;
+}
+
+a.nav-link{
+    font-weight: 300;
+    color: #fff !important;
+}
+
+a.nav-link:hover{
+    color: #635985 !important;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+section h1{
+    font-family: 'Tilt Neon', sans-serif;
+    color: rgb(100, 255, 218);
+    font-size: 2rem;
+}
+
+section h2{
+    color: #fff;
+}
+
+section h3{
+    color: #fff;
+}
+
+.detail p{
+    color: #fff;
+}
+
+section.intro{
+    display: block;
+    width: 100%;
+    height: 50vh;
+}
+
+section.about{
+    display: block;
+    width: 100%;
+    height: 50vh;
+}
+
+section.experience{
+    display: block;
+    margin-left: 25%;
+    width: 100%;
+    height: 50vh;
+}
+
+section.project{
+    display: block;
+    width: 100%;
+    height: 50vh;
+}
+
+img.profile{
+    transition: 0.3s;
+    height: 200px; 
+    width: 200px;
+    object-fit: cover;margin-left: 10%;
+    filter: opacity(0.45) drop-shadow(0 0 0 blue);
+}
+
+img.profile:hover{
+    transition: 0.3s;
+    filter: opacity(1) drop-shadow(0 0 0 blue);
+}
+
+/* give the stright line in the right side of h3 in section about */
+section.about h3::after{
+    content: "";
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: #fff;
+}
+
+section.experience h3::after{
+    content: "";
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: #fff;
+}
+
+section.project h3::after{
+    content: "";
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: #fff;
+}
+
+section.about .detail-about{
+    color: #fff;
+}
